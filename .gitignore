@@ -1,0 +1,49 @@
+# Gradle build and cache files
+.gradle/
+build/
+app/build/
+reports/
+
+# Local configuration file (SDK location, etc.)
+local.properties
+
+# Android Studio / IntelliJ IDEA files
+*.iml
+.idea/
+.idea_modules/
+
+# Built application files (ignore any newly built APKs, but preserve the student demo package)
+*.apk
+!app-debug.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Proguard / Shrinker folder
+proguard/
+
+# Log files
+*.log
+
+# Android Studio temporary files
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Signing keys & credentials
+*.jks
+*.keystore
+*.p12
+*.key
+google-services.json
+secrets.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db

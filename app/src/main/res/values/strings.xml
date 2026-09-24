@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">QuizSphere</string>
+    <string name="tagline">Interactive Online Quiz &amp; Assessment Platform</string>
+    <string name="sub_tagline">A DJANGO + PYTHON WEB APPLICATION</string>
+    <string name="team_presentation">Presented by: Giri Siddharth (40013), Ankit Singh (40003), Raju Ranjan (40043)</string>
+</resources>

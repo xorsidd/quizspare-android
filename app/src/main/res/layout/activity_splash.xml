@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- App Logo Icon Circle -->
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_score_circle"
+        android:gravity="center"
+        android:text="🎯"
+        android:textSize="38sp" />
+
+    <!-- App Brand Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="QuizSphere"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Interactive Online Quiz &amp; Assessment Platform"
+        android:textAlignment="center"
+        android:textColor="#CBD5E1"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginVertical="24dp"
+        android:background="@color/accent" />
+
+    <!-- Technical Subtitle matching Slide 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A DJANGO + PYTHON WEB APPLICATION"
+        android:textColor="@color/accent"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Django Mini Project Presentation"
+        android:textColor="#94A3B8"
+        android:textSize="12sp" />
+
+    <!-- Team Credits matching Slide 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Presented by:\nGiri Siddharth (40013)\nAnkit Singh (40003)\nRaju Ranjan Choudhary (40043)"
+        android:textAlignment="center"
+        android:textColor="#E2E8F0"
+        android:textSize="13sp" />
+
+</LinearLayout>
