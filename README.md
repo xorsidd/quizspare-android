@@ -52,21 +52,3 @@ adb install -r app-debug.apk
 1. Launch Android Studio.
 2. Click **File** -> **Open...** -> Choose the `QuizSphere_Mobile` project root folder.
 3. Press **Run ▶** (`Shift + F10`) to test on your phone or emulator.
-
----
-
-## 📸 App Previews
-
-| Active Screen Preview | Quiz / Dialog Confirmation |
-|:---:|:---:|
-| <img src="current_screen.png" width="300" alt="Current Screen" /> | <img src="dialog_check.png" width="300" alt="Dialog Check" /> |
-
----
-
-## 📊 Presentation Slides
-
-Slide previews from the project presentation are available in the [`slides_preview/`](slides_preview/) directory.
-To regenerate the slide deck via PowerPoint COM automation:
-```powershell
-.\generate_presentation.ps1
-```
